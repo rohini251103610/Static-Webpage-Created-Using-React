@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* content */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
+body{
+  background-color: lightgray;
+  }
+  .App-header{
+  margin-top:70px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:calc(10px + 2vmin);
+  
+  }
+  table{
+  border:2px solid black;
+  border-radius:10px;
+  border-collapse:collapse;
+  box-shadow:5px 10px 10px 12px;
+  height:500px;
+  
+  }
+  td{
+  border:2px solid black;
+  padding:10px;
+  padding-left:30px;
+  
+  }
+  th{
+  border:2px solid black;
+  padding:10px;
+  }
+  
+  h2{
+  margin:20px 0px 0px 150px;
+  }
+  
+  form{
+  border:5px solid black;
+  height:300px;
+  width:550px;
+  margin-top: 100px;
+  
+  
+  
+  }
+  input{
+  display:block;
+  float:right;
+   margin-right:150px;
+   margin-top:5px;  
+  }
+  label{
+  font-size: 20px;
+  padding-left:80px;
+  }
+  button{
+  margin:40px 0px 0px 250px;
+  background-color: blue;
+  border:3px solid black;
+  width:60px;
+  height:30px;
+  }
+  button:hover{
+  background-color: green;
+  }
+  
+  /* header */
+  *{
+    margin:0px;
+    padding:0px;
+    }
+  .nav{
+    background-color:black ;
+  
+  
+  }
+  ul{
+    display:inline;
+    list-style-type: none;
+    color:white;
+   margin:30px;
+   width: 900px;
+   /* height:1000px;
+     */
+    
+  }
+  li{
+    list-style-type: none;
+    display:inline;
+    margin:0px 0px 0px 300px;
+    padding-top:100px;
+    
+    
+  }
+  h1{
+    color:yellow;
+    margin:0px 0px 0px 550px;
+  }
+  ul,li{
+    margin-top:25px;
+  
+  }
+  
+  /* footer */
+  
+  .foot{
+    margin:10px;
+    background-color:black ;
+   width:1450px;
+   height: 30px;
+  
+    /* height:100px;
+    height:50px; */
+  
+  
+  }
+  ul{
+    display:inline;
+    list-style-type: none;
+    color:white;
+   margin:50px;
+    width:80px;
+    
+  }
+  li{
+    list-style-type: none;
+    display:inline;
+    margin:70px 0px 0px 200px;
+    /* padding-top:90px; */
+    /* padding:px; */
+    
+    
+  }
