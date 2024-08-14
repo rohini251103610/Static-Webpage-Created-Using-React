@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Static-Webpage-Created-Using-React/static/css/main.572f6aec.css",
+    "main.js": "/Static-Webpage-Created-Using-React/static/js/main.689ec577.js",
+    "index.html": "/Static-Webpage-Created-Using-React/index.html",
+    "main.572f6aec.css.map": "/Static-Webpage-Created-Using-React/static/css/main.572f6aec.css.map",
+    "main.689ec577.js.map": "/Static-Webpage-Created-Using-React/static/js/main.689ec577.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.572f6aec.css",
+    "static/js/main.689ec577.js"
+  ]
+}
